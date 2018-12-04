@@ -25,19 +25,19 @@ public class Drone {
 	}
 	//move character
 	public void moveUp(){
-		setY(getY()-10);
+		setY(getY()-50);
 		
 	}
 	public void moveDown(){
-		setY(getY()+10);
+		setY(getY()+50);
 		
 	}
 	public void moveLeft(){
-		setX(getX()-10);
+		setX(getX()-50);
 		
 	}
 	public void moveRight(){
-		setX(getX()+10);
+		setX(getX()+50);
 		
 	}
 	public void reset(){
